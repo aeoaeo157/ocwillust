@@ -1,5 +1,43 @@
 @charset "utf-8";
 
+
+.menu {
+    width: 100%;
+    max-width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 15px;
+
+    font-family: 'Pretendard';
+    font-size: 22px;
+    font-weight: 600;
+
+    border: 2px solid black;
+
+    padding: 15px 40px;
+    border-radius: 50px;
+}
+
+.menu ul li.active {
+    background-color: #eb5794;
+    color: #fff;
+    border: 2px solid #eb5794;
+}
+
+.menu ul li:hover {
+    background-color: #eb5794;
+    color: #fff;
+    border: 2px solid #eb5794;
+}
+
+
+
+
 .subtitle {
     /* margin-top: 150px; */
     text-align: left;
@@ -155,7 +193,7 @@
     width: 1400px;
 
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 }
 
 .con .gallery ul {
@@ -178,31 +216,3 @@
 
 
 
-
-
-
-
-
-
-
-.con .btn {
-    margin: 0 auto;
-    width: 140px;
-    margin-bottom: 150px;
-}
-
-
-.con .btn ul {
-  display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.con .btn ul li {
-    font-size: 23px;
-    color: #c0c0c0;
-}
-
-.con .btn ul li.active {
-    color: #e75398;
-}
