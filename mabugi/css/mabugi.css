@@ -1,40 +1,6 @@
 @charset "utf-8";
 
 
-.menu {
-    width: 100%;
-    max-width: 1060px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 80px;
-}
-
-.menu ul li {
-    display: inline-block;
-    margin-right: 15px;
-
-    font-family: 'Pretendard';
-    font-size: 22px;
-    font-weight: 600;
-
-    border: 2px solid black;
-
-    
-    border-radius: 50px;
-}
-
-.menu ul li a {
-padding: 0 7px;
-  display: block;
-}
-
-.menu ul li.active {
-    background-color: #9943ca;
-    color: #fff;
-    border: 2px solid #9943ca;
-}
-
-
 
 .subtitle {
     /* margin-top: 150px; */
@@ -95,9 +61,9 @@ padding: 0 7px;
     font-weight: 400;
 }
 
-.subtitle .info .join h2{
-letter-spacing: 9px;
-margin-right: 3px;
+.subtitle .info .join h2 {
+    letter-spacing: 9px;
+    margin-right: 3px;
 }
 
 
@@ -113,12 +79,12 @@ margin-right: 3px;
 }
 
 .subtitle .tool {
-position: absolute;
-left: 5px;
-top: 255px;
+    position: absolute;
+    left: 5px;
+    top: 255px;
 }
 
-.subtitle .tool ul li{
+.subtitle .tool ul li {
     display: inline-block;
 }
 
@@ -129,7 +95,7 @@ top: 255px;
 
 
 
-.subtitle .tool ul li{
+.subtitle .tool ul li {
     display: inline-block;
 }
 
@@ -137,9 +103,9 @@ top: 255px;
     width: 60px;
 }
 
-.subtitle .info .join h2{
-letter-spacing: 9px;
-margin-right: 3px;
+.subtitle .info .join h2 {
+    letter-spacing: 9px;
+    margin-right: 3px;
 }
 
 
@@ -265,7 +231,7 @@ margin-right: 3px;
 }
 
 .pam div ul {
-        display: flex;
+    display: flex;
     justify-content: space-between;
     /* 자식 div들을 양 끝으로 배치 */
     align-items: flex-start;
