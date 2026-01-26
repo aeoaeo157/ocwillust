@@ -53,7 +53,7 @@
     max-width: 1400px;
     margin: 0 auto;
 
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .subtitle .top ul {
@@ -64,7 +64,7 @@
 }
 
 .subtitle .top div {
-    height: 40px;
+    height: 36px;
     width: 10px;
     background-color: #ccc;
 
@@ -72,14 +72,14 @@
 
 .subtitle .top ul li h2 {
     font-family: 'Pretendard';
-    font-size: 40px;
+    font-size: 36px;
     margin-left: 20px;
 
 }
 
 .subtitle .info {
-    margin-top: 50px;
-    width: 260px;
+    margin-top: 30px;
+    width: 300px;
     padding: 15px;
     color: #000;
     margin-bottom: 25px;
@@ -115,6 +115,7 @@
     background-color: #ffbbff;
     padding: 3px;
     margin-left: 2px;
+    color: #fff;
 }
 
 .subtitle {
@@ -124,7 +125,7 @@
 .subtitle .tool {
     position: absolute;
     left: 5px;
-    top: 255px;
+    top: 245px;
 }
 
 .subtitle .tool ul li {
@@ -133,6 +134,22 @@
 
 .subtitle .tool img {
     width: 60px;
+}
+
+
+
+
+.subtitle .tool ul li {
+    display: inline-block;
+}
+
+.subtitle .tool img {
+    width: 60px;
+}
+
+.subtitle .info .join h2 {
+    letter-spacing: 9px;
+    margin-right: 3px;
 }
 
 
@@ -172,26 +189,27 @@
 
 .con .over {
     text-align: center;
-    margin-bottom: 100px;
 }
 
 .con .over h2 {
     font-family: 'Pretendard';
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .con .over p {
     font-family: 'Pretendard';
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 35px;
     color: rgb(78, 78, 78);
 }
 
-
-
+.con .over p span {
+    color: #eb5794;
+    font-weight: bold;
+}
 
 
 
@@ -205,12 +223,38 @@
 }
 
 .con .gallery img {
-    width: 1000px;
+    width: 700px;
 }
 
 
 
 
+/* Top 버튼 스타일 */
+.scroll-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 999;
+    cursor: pointer;
+    
+    /* 기본적으로 숨김 처리 */
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.scroll-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.scroll-top img {
+    width: 50px; /* 이미지 크기 조절 */
+}
+
+.scroll-top:hover {
+    transform: translateY(-5px); /* 호버 시 살짝 위로 이동 */
+}
 
 
 
