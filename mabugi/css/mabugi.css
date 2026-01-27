@@ -285,3 +285,187 @@
 .scroll-top:hover {
     transform: translateY(-5px); /* 호버 시 살짝 위로 이동 */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+
+.subtitle {
+    margin: 0 auto;
+
+    margin-bottom: 150px;
+}
+
+.subtitle .top ul li div {
+display: none;
+}
+
+.subtitle .top ul li h2 {
+text-align: center;
+        font-size: 30px;
+        margin-bottom: -20px;
+        margin-left: 0; /* PC에서 준 좌측 여백 20px 제거 */
+}
+
+.subtitle .info {
+display: block;      /* 블록 요소로 확실히 지정 */
+        width: 260px;        /* 고정 너비 유지 */
+        margin: 30px auto;   /* 상하 30px, 좌우 auto로 중앙 배치 */
+        padding: 15px;       /* 내부 여백 유지 */
+        text-align: left;    /* 내부 텍스트는 다시 왼쪽으로 정렬 */
+    }
+    
+.subtitle .info ul {
+display: block;      /* 한 줄씩 정렬되도록 변경 */
+        padding: 0;          /* 브라우저 기본 패딩 제거 */
+        margin: 0;
+        text-align: left;    /* 부모 영향 방지 */
+    }
+
+    .subtitle .info ul li {
+        display: inline-block; /* 항목명과 내용을 한 줄에 배치 */
+    }
+
+    /* 추가 팁: 상단의 타이틀과 도구 아이콘들도 중앙 정렬하면 더 자연스럽습니다 */
+    .subtitle .top ul {
+        justify-content: center;
+    }
+
+    .subtitle .info ul li h2 {
+     margin-left: 0;      /* PC의 20px 여백 제거 */
+        text-align: center;
+    }
+
+
+.subtitle .tool {
+position: absolute;
+    left: 0;
+    right: 0;
+    top: 210px; /* 원하는 위치로 수치 조절 */
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.con .contitle {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.con .contitle img {
+    width: 120px;
+}
+
+.con .contitle h2 {
+    font-family: 'KccEunyeong';
+    font-size: 30px;
+
+    color: rgb(49, 49, 49);
+}
+
+.con .contitle h2 span {
+    font-size: 46px;
+}
+
+
+.con .over {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.con .over h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.con .over p {
+ font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        width: 70%;           /* 고정 width: 460px 대신 유연한 % 사용 */
+        max-width: 460px;     /* 최대 너비는 유지 */
+        margin: 0 auto;       /* 박스 자체를 중앙으로 이동 */
+        word-break: keep-all;
+}
+
+.con .explain {
+display: flex;        /* block 대신 flex 유지 */
+        flex-direction: column; /* 세로로 쌓기 */
+        align-items: center;  /* 자식 요소들을 가로축 기준 중앙 정렬 */
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: -80px;
+}
+
+.con .explain div {
+  width: 100%;          /* 부모 너비를 꽉 채워서 중앙 정렬 보장 */
+        margin-bottom: 70px
+}
+
+.con .explain h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.con .explain img {
+height: 130px;
+        margin: 0 auto 40px;  /* 상 좌우 하 마진 설정 */
+        display: block;       /* inline-block보다 block이 중앙 정렬에 유리 */
+
+}
+
+.con .explain p {
+width: 90%;           /* 텍스트가 너무 퍼지지 않게 너비 제한 */
+        margin: 0 auto;       /* 텍스트 박스 중앙 정렬 */
+}
+
+.con span {
+    color: #9943ca;
+    font-weight: bold;
+}
+
+
+
+
+
+.pam h2 {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.pam div ul {
+    display: block;
+}
+
+.pam img {
+    width: 460px;
+margin-bottom: 30px;
+}
+
+
+/* Top 버튼 스타일 */
+.scroll-top {
+    bottom: 150px;
+}
+
+
+}
