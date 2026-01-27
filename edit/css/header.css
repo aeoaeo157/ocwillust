@@ -83,11 +83,12 @@ header div {
 
 
 
+
 /* 반응형 디자인 */
 
 /* 태블릿 (768px ~ 1024px) */
 
-@media (max-width: 900x) {
+@media (max-width: 900px) {
 
 
 .title {
