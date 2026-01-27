@@ -90,7 +90,7 @@ header div {
 
 
 .title {
-    max-width: 460px;
+    max-width: 360px;
 }
 
 .title h2 {
@@ -109,30 +109,27 @@ header div {
 }
 
 .gnb {
-    width: 100%;
-    max-width: 1060px;
+
     text-align: center;
 
     margin: 0 auto;
 
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
-
 
 .gnb ul li {
     font-family: 'Pretendard';
-    font-size: 22px;
+    font-size: 17px;
     font-weight: 500;
 
     color: rgb(126, 126, 126);
 
-    margin-right: 18px;
+    margin-right: 12px;
     display: inline-block;
 }
 
 
 }
-
 
 
 

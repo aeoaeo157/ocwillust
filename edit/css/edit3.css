@@ -248,15 +248,13 @@ body {
 /* 태블릿 (768px ~ 1024px) */
 
 @media (max-width: 900px) {
-
 html, body {
     width: 100%;
     overflow-x: hidden; /* 가로축으로 넘치는 내용은 숨김 */
 }
 
 .menu {
- margin-bottom: 50px;
-        padding: 0 10px; /* 양옆 여백 */
+ margin-bottom: 60px;
 
 }
 
@@ -270,14 +268,14 @@ html, body {
 
 .menu ul li {
   /* 2개씩 배치하기 위해 너비 조정 (gap을 고려하여 50%보다 약간 작게) */
-        width: calc(50% - 40px); 
+       width: calc(40% - 30px); 
         margin-right: 0;      /* 기존 마진 제거 */
         box-sizing: border-box;
         display: block;       /* 너비 적용을 위해 블록화 */
 }
 
 .menu ul li a {
-    padding: 12px 30px;
+    padding: 10px 15px;
     text-align: center;
         font-size: 16px;      /* 모바일에 적합한 폰트 크기 */
     
@@ -296,7 +294,7 @@ display: none;
 
 .subtitle .top ul li h2 {
 text-align: center;
-        font-size: 30px;
+        font-size: 26px;
         margin-bottom: -20px;
         margin-left: 0; /* PC에서 준 좌측 여백 20px 제거 */
 }
@@ -328,7 +326,12 @@ display: block;      /* 한 줄씩 정렬되도록 변경 */
     .subtitle .info ul li h2 {
      margin-left: 0;      /* PC의 20px 여백 제거 */
         text-align: center;
+        font-size: 18px;
     }
+
+     .subtitle .info ul li h2 p {
+        font-size: 18px;
+     }
 
 
 .subtitle .tool {
@@ -340,26 +343,29 @@ position: absolute;
 }
 
 
+.con .over {
+    text-align: center;
+}
+
 .con .over h2 {
-    font-family: 'Pretendard';
     font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .con .over p {
-    font-family: 'Pretendard';
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 35px;
-    color: rgb(78, 78, 78);
+ font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        width: 70%;           /* 고정 width: 460px 대신 유연한 % 사용 */
+        max-width: 460px;     /* 최대 너비는 유지 */
+        margin: 0 auto;       /* 박스 자체를 중앙으로 이동 */
+        word-break: keep-all;
 }
-
 
 
 
 .con .gallery img {
-    width: 460px;
+    width: 360px;
     box-shadow: 5px 5px 5px #ccc;
 }
 

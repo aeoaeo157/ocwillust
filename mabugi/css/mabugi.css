@@ -314,14 +314,14 @@ display: none;
 
 .subtitle .top ul li h2 {
 text-align: center;
-        font-size: 30px;
+        font-size: 26px;
         margin-bottom: -20px;
         margin-left: 0; /* PC에서 준 좌측 여백 20px 제거 */
 }
 
 .subtitle .info {
 display: block;      /* 블록 요소로 확실히 지정 */
-        width: 260px;        /* 고정 너비 유지 */
+        width: 250px;        /* 고정 너비 유지 */
         margin: 30px auto;   /* 상하 30px, 좌우 auto로 중앙 배치 */
         padding: 15px;       /* 내부 여백 유지 */
         text-align: left;    /* 내부 텍스트는 다시 왼쪽으로 정렬 */
@@ -346,7 +346,12 @@ display: block;      /* 한 줄씩 정렬되도록 변경 */
     .subtitle .info ul li h2 {
      margin-left: 0;      /* PC의 20px 여백 제거 */
         text-align: center;
+        font-size: 18px;
     }
+
+     .subtitle .info ul li h2 p {
+        font-size: 18px;
+     }
 
 
 .subtitle .tool {
@@ -427,15 +432,16 @@ display: flex;        /* block 대신 flex 유지 */
 }
 
 .con .explain img {
-height: 130px;
+height: 110px;
         margin: 0 auto 40px;  /* 상 좌우 하 마진 설정 */
         display: block;       /* inline-block보다 block이 중앙 정렬에 유리 */
 
 }
 
 .con .explain p {
-width: 90%;           /* 텍스트가 너무 퍼지지 않게 너비 제한 */
+width: 80%;           /* 텍스트가 너무 퍼지지 않게 너비 제한 */
         margin: 0 auto;       /* 텍스트 박스 중앙 정렬 */
+        font-size: 16px;
 }
 
 .con span {
@@ -457,7 +463,7 @@ width: 90%;           /* 텍스트가 너무 퍼지지 않게 너비 제한 */
 }
 
 .pam img {
-    width: 460px;
+    width: 360px;
 margin-bottom: 30px;
 }
 
